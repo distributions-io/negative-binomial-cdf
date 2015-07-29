@@ -1,7 +1,7 @@
 options( digits = 16 )
 library( jsonlite )
 
-r = 1
+r = 4
 p = 0.5
 x = 0:24
 y = pnbinom( x, r, p )

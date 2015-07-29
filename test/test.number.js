@@ -52,4 +52,8 @@ describe( 'number cdf', function tests() {
 		assert.isTrue( isnan( cdf( NaN, r, p ) ) );
 	});
 
+	it( 'should return 1 for +Infinity', function test() {
+		 assert.strictEqual( cdf( +Infinity, r, p ), 1 );
+	});
+
 });
