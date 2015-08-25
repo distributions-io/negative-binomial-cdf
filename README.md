@@ -16,7 +16,7 @@ where `r` is the number of failures until experiment is stopped, `p` is the succ
 ## Installation
 
 ``` bash
-$ npm install distributions-negbinomial-cdf
+$ npm install distributions-negative-binomial-cdf
 ```
 
 For use in the browser, use [browserify](https://github.com/substack/node-browserify).
@@ -25,7 +25,7 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var cdf = require( 'distributions-negbinomial-cdf' );
+var cdf = require( 'distributions-negative-binomial-cdf' );
 ```
 
 #### cdf( x[, options] )
@@ -255,7 +255,7 @@ bool = ( mat === out );
 ## Examples
 
 ``` javascript
-var cdf = require( 'distributions-negbinomial-cdf' ),
+var cdf = require( 'distributions-negative-binomial-cdf' ),
 	matrix = require( 'dstructs-matrix' );
 
 var data,
@@ -358,20 +358,20 @@ $ make view-cov
 Copyright &copy; 2015. The [Compute.io](https://github.com/compute-io) Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/distributions-negbinomial-cdf.svg
-[npm-url]: https://npmjs.org/package/distributions-negbinomial-cdf
+[npm-image]: http://img.shields.io/npm/v/distributions-negative-binomial-cdf.svg
+[npm-url]: https://npmjs.org/package/distributions-negative-binomial-cdf
 
-[travis-image]: http://img.shields.io/travis/distributions-io/negbinomial-cdf/master.svg
-[travis-url]: https://travis-ci.org/distributions-io/negbinomial-cdf
+[travis-image]: http://img.shields.io/travis/distributions-io/negative-binomial-cdf/master.svg
+[travis-url]: https://travis-ci.org/distributions-io/negative-binomial-cdf
 
-[codecov-image]: https://img.shields.io/codecov/github/distributions-io/negbinomial-cdf/master.svg
-[codecov-url]: https://codecov.io/github/distributions-io/negbinomial-cdf?branch=master
+[codecov-image]: https://img.shields.io/codecov/github/distributions-io/negative-binomial-cdf/master.svg
+[codecov-url]: https://codecov.io/github/distributions-io/negative-binomial-cdf?branch=master
 
-[dependencies-image]: http://img.shields.io/david/distributions-io/negbinomial-cdf.svg
-[dependencies-url]: https://david-dm.org/distributions-io/negbinomial-cdf
+[dependencies-image]: http://img.shields.io/david/distributions-io/negative-binomial-cdf.svg
+[dependencies-url]: https://david-dm.org/distributions-io/negative-binomial-cdf
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/distributions-io/negbinomial-cdf.svg
-[dev-dependencies-url]: https://david-dm.org/dev/distributions-io/negbinomial-cdf
+[dev-dependencies-image]: http://img.shields.io/david/dev/distributions-io/negative-binomial-cdf.svg
+[dev-dependencies-url]: https://david-dm.org/dev/distributions-io/negative-binomial-cdf
 
-[github-issues-image]: http://img.shields.io/github/issues/distributions-io/negbinomial-cdf.svg
-[github-issues-url]: https://github.com/distributions-io/negbinomial-cdf/issues
+[github-issues-image]: http://img.shields.io/github/issues/distributions-io/negative-binomial-cdf.svg
+[github-issues-url]: https://github.com/distributions-io/negative-binomial-cdf/issues

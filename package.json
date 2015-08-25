@@ -1,5 +1,5 @@
 {
-  "name": "distributions-negbinomial-cdf",
+  "name": "distributions-negative-binomial-cdf",
   "version": "0.0.0",
   "description": "Negative Binomial distribution cumulative distribution function (CDF).",
   "author": {
@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/negbinomial-cdf.git"
+    "url": "git://github.com/compute-io/negative-binomial-cdf.git"
   },
   "keywords": [
     "distributions.io",
@@ -33,7 +33,7 @@
     "distribution function"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/negbinomial-cdf/issues"
+    "url": "https://github.com/compute-io/negative-binomial-cdf/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",
