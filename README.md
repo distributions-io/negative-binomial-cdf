@@ -2,12 +2,12 @@ Cumulative Distribution Function
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> [Negative Binomial](https://en.wikipedia.org/wiki/Negative Binomial_distribution) distribution [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function).
+> [Negative binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution) distribution [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function).
 
-The [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for a [Negative Binomial](https://en.wikipedia.org/wiki/Negative Binomial_distribution) random variable is
+The [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for a [negative binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution) random variable is
 
 <div class="equation" align="center" data-raw-text="F(x;r,p)=1-I_p(x+1,r)" data-equation="eq:cdf">
-	<img src="https://cdn.rawgit.com/distributions-io/negbinomial-cdf/45a5117af4dd427f1bbd5b85ce065f68af1accd9/docs/img/eqn.svg" alt="Cumulative distribution function for a Negative Binomial distribution.">
+	<img src="https://cdn.rawgit.com/distributions-io/negbinomial-cdf/45a5117af4dd427f1bbd5b85ce065f68af1accd9/docs/img/eqn.svg" alt="Cumulative distribution function for a negative binomial distribution.">
 	<br>
 </div>
 
@@ -30,7 +30,7 @@ var cdf = require( 'distributions-negative-binomial-cdf' );
 
 #### cdf( x[, options] )
 
-Evaluates the [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for the [Negative Binomial](https://en.wikipedia.org/wiki/Negative Binomial_distribution) distribution. `x` may be either a [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or a [`matrix`](https://github.com/dstructs/matrix).
+Evaluates the [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for the [negative binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution) distribution. `x` may be either a [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or a [`matrix`](https://github.com/dstructs/matrix).
 
 ``` javascript
 var matrix = require( 'dstructs-matrix' ),
@@ -79,7 +79,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [Negative Binomial](https://en.wikipedia.org/wiki/Negative Binomial_distribution) distribution is a function of 2 parameter(s): `r`(number of failures until experiment is stopped) and `p`(success probability). By default, `r` is equal to `1` and `p` is equal to `0.5`. To adjust either parameter, set the corresponding option(s).
+A [negative binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution) distribution is a function of 2 parameter(s): `r`(number of failures until experiment is stopped) and `p`(success probability). By default, `r` is equal to `1` and `p` is equal to `0.5`. To adjust either parameter, set the corresponding option(s).
 
 ``` javascript
 var x = [ -1, 0, 1, 2, 3 ];
