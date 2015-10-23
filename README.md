@@ -79,7 +79,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [negative binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution) distribution is a function of 2 parameter(s): `r`(number of failures until experiment is stopped) and `p`(success probability). By default, `r` is equal to `1` and `p` is equal to `0.5`. To adjust either parameter, set the corresponding option(s).
+A [negative binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution) distribution is a function of two parameters: `r`(number of failures until experiment is stopped) and `0 < p < 1`(success probability). By default, `r` is equal to `1` and `p` is equal to `0.5`. To adjust either parameter, set the corresponding option.
 
 ``` javascript
 var x = [ -1, 0, 1, 2, 3 ];
